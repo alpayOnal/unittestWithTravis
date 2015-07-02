@@ -8,4 +8,5 @@ python:
   - "nightly"
 # command to install dependencies
 # command to run tests
-script:test_methods.py
+script:
+-python test_methods.py
