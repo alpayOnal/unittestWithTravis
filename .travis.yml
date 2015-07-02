@@ -9,4 +9,4 @@ python:
 # command to install dependencies
 # command to run tests
 script:
--python test_methods.py
+ - if [[ $TRAVIS_PYTHON_VERSION == '2.7' ]]; then python -m unittest discover; fi
