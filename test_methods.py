@@ -6,7 +6,7 @@ class TestMethods(unittest.TestCase):
         self.assertEqual(methods.add(3,5), 8)
 
     def test_minus(self):
-        self.assertEqual(methods.minus(3,5), 1)
+        self.assertEqual(methods.minus(3,5), 2)
 
     def test_multiply(self):
         self.assertEqual(methods.multiply(3,5), 15)
