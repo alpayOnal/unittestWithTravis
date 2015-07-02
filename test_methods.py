@@ -12,4 +12,3 @@ class TestMethods(unittest.TestCase):
         self.assertEqual(methods.multiply(3,5), 15)
 
 
-unittest.main()
