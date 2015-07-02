@@ -11,3 +11,6 @@ def minus(x,y):
 
 def multiply(x,y):
     return x*y
+
+def multiplyx(x,y):
+    return x*y
